@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Pagina</title>
+</head>
+
+<body>
+    <div class="barrasuperior">
+        <div class="nombre">Nelson Ivan Santos</div>
+        <div class="inicio"><a href="#cuadro1">Inicio</a></div>
+        <div class="quiensoy"><a href="#cuadro2">¿Quien Soy?</a></div>
+        <div class="proyectos"><a href="#cuadro3">Proyectos</a></div>
+    </div>
+
+    <div class="barraprimera" id="cuadro1">
+        <div class="img1"><img src="./imagenes/imagen.png.avif"></div>
+
+        <div class="texto">
+            <h2>¿Quien Soy?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit veritatis a autem
+                sed dignissimos commodi, voluptas incidunt voluptatibus cum, quia neque nulla consequatur
+                laborum accusamus, perspiciatis odio nemo minus vel!. Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Obcaecati, debitis perspiciatis non iste voluptatibus facere animi autem minus,
+                quas nihil quibusdam atque repellat cupiditate accusantium! Molestiae quaerat aliquid molestias nihil?
+            </p>
+            <button class="boton1">Leer mas</button>
+        </div>
+    </div>
+
+    <div class="barrasegunda" id="cuadro2">
+        <div class="img2"><img src="./imagenes/imagen2.png.avif " width="300" height="300"></div>
+        <div class="texto2">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam doloribus earum consequuntur
+                eaque accusamus corporis accusantium iusto facilis, fuga expedita impedit, doloremque aut ipsum maxime.
+                Nemo nobis molestias quae quisquam.</p>
+            <h1 class="nombre1">- Nelson Ivan Santos</h1>
+        </div>
+    </div>
+
+    <div>
+        <h2 class="titulo">Mis proyectos</h2>
+        <div class="barratercero" id="cuadro3">
+            <div class="proyectos2">
+                <div class="figura">
+                    <div class="foto"><img src="./imagenes/2705118.png" width="300" height="300"></div>
+                    <h3 class="textoa">Tener una ingenieria</h3>
+                    <p class="textoa">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Nesciunt vero corporis incidunt saepe qui commodi quasi neque
+                        veniam quam, aspernatur est beatae maxime animi sed reiciendis
+                        mollitia ducimus veritatis repellendus?.</p>
+                    <button class="botona">Ver Mas</button>
+                </div>
+                <div class="figura">
+                    <div class="foto"><img src="./imagenes/png-clipart-airplane-travel-flight-towel-cartoon-global-travel-cartoon-character-blue-removebg-preview.png" width="300" height="300"></div>
+                    <h3 class="textoa">Viajar</h3>
+                    <p class="textoa">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Nesciunt vero corporis incidunt saepe qui commodi quasi neque
+                        veniam quam, aspernatur est beatae maxime animi sed reiciendis
+                        mollitia ducimus veritatis repellendus?</p>
+                    <button class="botona">Ver Mas</button>
+                </div>
+                <div class="figura">
+                    <div class="foto"><img src="./imagenes/metas.png" width="300" height="300"></div>
+                    <h3 class="textoa">Cumplir Metas</h3>
+                    <p class="textoa">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Nesciunt vero corporis incidunt saepe qui commodi quasi neque
+                        veniam quam, aspernatur est beatae maxime animi sed reiciendis
+                        mollitia ducimus veritatis repellendus?</p>
+                    <button class="botona">Ver Mas</button>
+                </div>
+                <div class="figura">
+                    <div class="foto"><img src="./imagenes/png-transparent-brand-public-relations-business-support-group-text-public-relations-logo-removebg-preview.png" width="300" height="300"></div>
+                    <h3 class="textoa">Aportar a la sociedad</h3>
+                    <p class="textoa">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Voluptatum perferendis similique pariatur facilis! Tenetur
+                        id ut, voluptatum reiciendis maxime maiores cumque, non inventore
+                        rem atque veniam unde quae a?</p>
+                    <button class="botona">Ver Mas</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Copyright @ Nelson Ivan Santos Cacua</p>
+    </footer>
+</body>
+
+</html>
+<style>
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.barrasuperior {
+    z-index: 1;
+    margin: 0%;
+    padding: 0%;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(240, 58, 58);
+    display: grid;
+    grid-template-columns: 76% 6% 9% 6%;
+    position: fixed;
+}
+
+.nombre {
+    font-size: 25px;
+    font-style: arial;
+    color: aliceblue;
+    margin: 10px 0px 0px 60px;
+}
+
+.inicio {
+    font-size: larger;
+    font-style: oblique;
+    color: aliceblue;
+    margin: 15px 0px 0px 0px;
+}
+
+.quiensoy {
+    font-size: larger;
+    font-style: oblique;
+    color: aliceblue;
+    margin: 15px 0px 0px 0px;
+}
+
+.proyectos {
+    font-size: larger;
+    font-style: oblique;
+    color: rgb(35, 115, 184);
+    margin: 15px 0px 0px 0px;
+}
+
+
+.barraprimera {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding: 4rem 6%;
+}
+
+.barraprimera .img1{
+    flex:  1 1 20rem;
+}
+
+.barraprimera .texto{
+    flex: 1 1 40rem;
+    text-align: left;
+    font-size: 28px;
+    color: #080808;
+}
+
+.boton1 {
+    padding: 10px;
+    background-color: #2363ee;
+    border: none;
+    border-radius: 4px;
+    color: #333;
+    bottom: 20px;
+    right: 30px;
+    cursor: pointer;
+}
+
+.boton1:hover {
+    background-color: aqua;
+}
+
+.barrasegunda {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(12, 134, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.img2 img {
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+.texto2 {
+    text-align: center;
+    align-items: center;
+    font-size: 28px;
+    font-style: oblique;
+    color: #080808;
+}
+
+.nombre1 {
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+}
+.barratercero{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 16px;
+}
+
+.botona{
+    padding: 10px;
+    background-color: #2363ee;
+    border: none;
+    border-radius: 4px;
+    color: #333;
+    bottom: 20px;
+    right: 30px;
+    cursor: pointer; 
+}
+.botona:hover {
+    background-color: aqua;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 40px;
+    font-style: oblique;
+    color: #080808;
+}
+
+.proyectos2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 16px;
+    padding: 2rem 6%;
+}
+
+.textoa{
+    color: #080808;
+    font-style: oblique;
+    font-size: 20px;
+}
+.proyectos2 .figura{
+    background: rgb(37, 209, 48);
+    border: .1px solid rgb(0, 0, 0, .2);
+    border-radius: 50px;
+    text-align: center;
+    position: relative;
+}
+
+footer{
+    background-color:  rgb(240, 58, 58) ;
+    color: #080808;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0px 10px;
+}
+
+footer p{
+    text-align: right;
+    color: #080808;
+    font-size: 25px;
+}
+</style>
